@@ -5,7 +5,7 @@ import totalItems from "../data/AideItems";
 console.log(totalItems);
 function Aide(){
     return (
-        <div className=" grid grid-cols-2 md:grid-cols-4 gap-8 content-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {totalItems.map(item => (
                 <AideItem key={item.text}
                     title={item.title} 
