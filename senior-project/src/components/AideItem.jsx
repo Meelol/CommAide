@@ -23,11 +23,12 @@ function AideItem({title, imgURL, text, voiceFile}){
     }
 
     return (
-        <div className="border relative h-auto w-auto rounded-lg">
-            <button type="button" disabled={disable} onClick={playSound}>
-                <img src={imgURL} alt={title}/>
+            <button className=" group relative" type="button" disabled={disable} onClick={playSound}>
+                <img className="relative object-cover group-hover:grayscale border-8 h-full w-full rounded-lg" src={imgURL} alt={title}/>
+                <span class="absolute top-1/2 left-1/2 -translate-x-2/4 -translate-y-1/2 
+                text-teal-700 font-bold invisible group-hover:grayscale-0 group-hover:visible text-6xl font-arimo">{text}</span>
             </button>
-        </div>
+            
     );
 }
 
