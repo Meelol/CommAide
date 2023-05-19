@@ -16,9 +16,8 @@ jobs:
       - name: Install all dependencies
         run: npm install /home/runner/work/SeniorProject/SeniorProject/senior-project
 
-
       - name: Build
-        run: npm run build # The build command of your project
+        run: npm run build
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
