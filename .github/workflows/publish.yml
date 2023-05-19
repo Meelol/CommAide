@@ -12,12 +12,9 @@ jobs:
     steps:
       - name: git-checkout
         uses: actions/checkout@v2
-      
-      - name: Go to Project
-        run: cd senior-project
     
       - name: Install all dependencies
-        run: npm install
+        run: npm install senior-project/package.json
 
       - name: Build
         run: npm run build # The build command of your project
