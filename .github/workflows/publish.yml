@@ -17,7 +17,7 @@ jobs:
         run: npm install /home/runner/work/SeniorProject/SeniorProject/senior-project
 
       - name: Build
-        run: npm run build
+        run: cd senior-project && npm run build
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
