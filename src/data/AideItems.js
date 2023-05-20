@@ -6,8 +6,8 @@ import waterSound from "../assets/Audio/WaterGlass.mp3"
 import restroomImg from "../assets/Images/Restroom.jpg";
 import restroomSound from "../assets/Audio/Restroom.mp3";
 
-import thankYouImg from "../assets/Images/ThankYou.jpg";
-import  thankYouSound from "../assets/Audio/ThankYou.mp3";
+import thankYouImg from "../assets/Images/Thankyou.jpg";
+import  thankYouSound from "../assets/Audio/Thankyou.mp3";
 
 import activityRoomImg from "../assets/Images/ActivityRoom.jpg";
 import activityRoomSound from "../assets/Audio/ActivityRoom.mp3"; 
