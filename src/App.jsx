@@ -11,9 +11,6 @@ function App() {
     <Welcome></Welcome>
     <main className="flex gap-4 p-1.5">
       <React.Fragment>
-        <CategoriesList></CategoriesList>
-      </React.Fragment>
-      <React.Fragment>
         <Aide></Aide>
       </React.Fragment>
     </main>
